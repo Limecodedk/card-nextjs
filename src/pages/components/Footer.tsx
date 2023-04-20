@@ -1,0 +1,27 @@
+const Footer = () => {
+  return (
+    <>
+      <footer id="footer">Cool Ninja kickass Footer</footer>
+
+      <style jsx>
+        {`
+          footer {
+          width:100%; 
+          position: absolute; 
+          height:calc(2em + 2vw);
+          bottom: 0; 
+          background:#000; 
+          color:#fff; 
+          text-align:center; 
+          font-family: "Courier New", Courier, monospace; 
+          font-weight: bold; padding-top:calc(.5em + .5vw);
+}
+`}
+      </style>
+
+    </>
+  );
+}
+
+export default Footer;
+
